@@ -40,6 +40,13 @@ These thresholds were chosen based on ISO/TS 15066 guidance for human-robot cont
 ```
 
 ---
+## System in action
+
+![ROS2 safety controller — DANGER state triggered](screenshots/ros2_danger_estop.png)
+
+Three nodes running simultaneously. Joint 1 force exceeded 26.2Nm — 
+EMERGENCY STOP triggered, cause logged, all joints halted. 
+WARNING state on Joint 3 at 24.8Nm visible in the same session.
 
 ## Nodes
 
